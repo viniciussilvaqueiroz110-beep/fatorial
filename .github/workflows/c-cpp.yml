@@ -13,8 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
+    
     - name: compile
       run: gcc fatorial_test.c -o fatorial_test
     - name: run
